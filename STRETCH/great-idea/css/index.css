@@ -339,3 +339,68 @@ footer {
 .footer-services {
   margin: 15px 0;
 }
+
+/* Media Breakpoints */
+
+@media (max-width: 950px) {
+  .container {
+    /* background: green; */
+    width: 100%;
+    padding: 0 15px;
+    /* margin: 0; */
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .services {
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 25px 0;
+    align-content: space-between;
+    height: 100%;
+  }
+
+  .services h3 {
+    font-size: 28px;
+  }
+
+  .services a {
+    font-size: 16px;
+  }
+
+  .services section {
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+    height: 255px;
+    align-items: center;
+    /* margin: 2px; */
+  }
+
+  header {
+    margin: 20px 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  nav a {
+    margin: 15px;
+  }
+
+  .facts {
+    flex-direction: column;
+  }
+
+  .facts img {
+    width: 100%;
+  }
+  
+  span {
+    margin: 0;
+  }
+}
