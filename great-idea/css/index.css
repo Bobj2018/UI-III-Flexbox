@@ -177,7 +177,6 @@ header {
 
 nav {
   width: 69%;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -297,7 +296,6 @@ footer {
   background: whitesmoke;
   border: black solid 1px;
   padding: 20px;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   /* margin: 2px; */
